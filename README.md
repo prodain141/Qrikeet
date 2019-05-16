@@ -1,1 +1,3 @@
 # qriket
+
+bot qriket
