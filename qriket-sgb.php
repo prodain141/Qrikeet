@@ -1,11 +1,470 @@
 <?php
-
-$i1i='========================================================================
-	Obfuscation provided by Unknowndevice64 - Free Online PHP Obfuscator
-				http://www.ud64.com/
-==============================================================================';
-
-
-$uD64_c0m="\163\164\x72\x5f\162\x6f\164"."13";$uD64_Com="\147\x7a\151\x6e\x66\x6c\141\164\x65";$uD64_C0m="\142\x61\x73\14564\x5f\x64\x65\143o\144\145";$x0zRy=$uD64_Com($uD64_C0m($uD64_c0m("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")));@eval($uD64_c0m('$k0xEm="MIKoogf4RC2IbhuQv7kDwh0xXNdfYMTcYdESpbnBQY8Hmd5fHdaGyIgqia7Uqv8C+2NL5CNZm5xmUY0oJYGcC70ST75dfJPT8n4L09plzsdIFT/GjJPEBYBBVlvth0aUiIBQaQd/b7v+mqwFesNFGlE0eElKSU9rhCcISpWcgTjfemtxKUNkT3YEiuWBX/68yCM+lX/kc0g86NHXscVQ3cpUBGBj85aDW+ARSDq2Ztq2KlFlD9tE390cp0gGJZa0LJnyd9iZAcKvPeJ/4ScUhNXeJEy3bkYIJp+6jNfie6QYNnn+iBcpS/nft01JSk37dj6dQ7e6cRq+hqqq7d0bY90Y8hSnW32gR6GUqsrdpiiZZGTseMH/5PRjMqKPWr6mpsYx6A7ltR3hwpippMVkoNchAzfVGD58oud+y2TwcB0nnoSGQo6F7eavbISB7yCYNz0mj3TDfBgKxRoFuwgQqInjnjes+gGgEuK6QrRsZduhQpv5jsOQ2L2PWV1XglCqKIuQBapviPu8mcEspdEmTEWsZT6qBSst7fRW7dJKr+K5cUFYFR+JGwXmV33pRI8IVv2QwvmcYzA8fRCap8N2N7rEQHM26ASMoOKU76gD9poeS4Ow5PQ6bbXrFKQPPVkVq1/T+aGTy7QbZmOCcWhcjCd8jK5AsWJqZwsjHE00+qNVFK2vVUlGbTeaf0sR9g4VmzDjFfXZT1rCWb6dSrW+sMv+TXumfA2xRWdcWZlcCcUlwaGKq9aVwjeVA9PZ6wOD3p/phO2mEkQ1DSbw0v1xje2lZaXADQznQFkV9jSs8kTQj3oZzXyXjAana57Vj7yx6OKKHD4aDK53cUILrLCeERLeVC9gzXjTg1F2vmYUOjKAJsr9fgtbkVppcbk8w/DtPfWyqfGoNxXUV+4IIN+LHTHkmUQxH4a6IL36kHX4ZooKuGrvTA3wRjolT4ZHLMnEa4JiMfJMN9O9moWnZsVW5ZGn7bMpGrIV/OZqRSzaNi9KPExIKw0P8UfQYOGkEvy631Xb5EeBsqX2FbFbCWwa3YqAEwtKry16b6wBY9GKmNKrlbM8FacUp2nvJCurObkVkjGqLaFPAnE7Vtq2FmvBb3Tycs4vidKLYTIPojMbCbUEEHm8LY+2HRKHe0qSeLnHA7sIDknmgiEd6Ho5yq7WJKrGtz4ILSrT3Fxs0jzv7dv2K2Iv1NbJxlsOwcc132EpEp7KR+G17/zxoR0qfitme6wR+FUg13UK5X5zBvj5mnz99ABzhhQZ+IlJQfsOpBcASgHe2Z00gNsA9H068VS0Zk3sQ9KCArxzi0kXp2AkzEhDsxf9mn0LK9qr/8DWJjMIJ3iW+93SDcELAENsQm/a3urSJs1x6/Z6Yj9asfrW/Z1iWhjsKqadS46SbsDMi+DIoI4gwc/rsama2oNWa95hb+aggc//f41z821/A6s1wC4a22t+3sLm2c+s1/Fw9FH2i6Jmq7/JyBajBkBucuTqCzrporsm7n8p0+yy53/Li/7+8nI58/7Ayp37n6e37l5seN8sCam8Qj==";@riny(tmvasyngr(onfr64_qrpbqr($k0xEm)));'));
-
+// script created by : will pratama - facebook.com/yaelahhwil - 18-05-2019
+ 
+date_default_timezone_set("Asia/Jakarta");
+$date = date("H:i:s Y-m-d");
+class qriket extends modules
+{
+	private $BASE_URL = "https://goldcloudbluesky.com";
+ 
+	public function login($email, $password)
+	{
+		$url = $this->BASE_URL."/app/login";
+		$post = '{"email":"'.$email.'","password":"'.$password.'"}';
+		$headers = explode("\n", "device-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+ 
+		$login = $this->curl($url, $post, false, false, $headers);
+		$obj = json_decode($login);
+ 
+		return $login;
+	}
+ 
+	public function sendOtp($phone)
+	{
+		$url = $this->BASE_URL."/app/sms/verify";
+		$post = '{"phoneNumber":"'.str_replace("08", "+628", str_replace("628", "+628", $phone)).'"}';
+		$headers = explode("\n", "device-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+ 
+		$sendOtp = $this->curl($url, $post, false, false, $headers);
+		$obj = json_decode($sendOtp);
+ 
+		return $sendOtp;
+	}
+ 
+	public function registerAccount($codereff, $phoneNumber = null, $otepepekuenakontolan = null)
+	{
+		$firstName = $this->randNama()['first'];
+		$lastName = $this->randNama()['last'];
+		$email = $this->randNama()['email'];
+		$password = $this->randNama()['password'];
+ 
+		if($codereff == "n")
+		{
+			$phoneNumbers = "+6281".$this->randStr("angka", "10");
+			$post = '{"email":"'.$email.'","firstName":"'.$firstName.'","lastName":"'.$lastName.'","password":"'.$password.'","phoneNumber":"'.$phoneNumbers.'","utcOffset":480}';
+		}else{
+			$url = $this->BASE_URL."/app/sms/verify";
+			$post = '{"code":"'.trim($otepepekuenakontolan).'","phoneNumber":"'.str_replace("08", "+628", str_replace("628", "+628", $phoneNumber)).'"}';
+			$headers = explode("\n", "device-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+			$verifMemek = $this->curl($url, $post, false, false, $headers, 'PUT');
+			print $verifMemek;
+ 
+			$post = '{"email":"'.$email.'","firstName":"'.$firstName.'","lastName":"'.$lastName.'","password":"'.$password.'","phoneNumber":"'.str_replace("08", "+628", str_replace("628", "+628", $phoneNumber)).'","referralCode":"'.$codereff.'","utcOffset":480}';
+		}
+ 
+		$url = $this->BASE_URL."/app/register";
+		$headers = explode("\n", "device-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+ 
+		$registerAccount = $this->curl($url, $post, false, false, $headers);
+		$obj = json_decode($registerAccount);
+ 
+		@$userId = $obj->account->user->id;
+		@$emailResponse = $obj->account->user->email;
+		@$accessToken = $obj->auth->jwt->accessToken;
+		if(!empty($accessToken))
+		{
+		 	print PHP_EOL."Success Register!, Email:".$emailResponse."|Pass:".$password;
+		 	$this->fwrite("akunQriket.txt", $userId."|".$emailResponse."|".$password."|".$accessToken.PHP_EOL);
+		}else{
+			print PHP_EOL."Failed Register!, Message:".@$obj->errors[0] ? : "null";
+		}
+	}
+ 
+	public function spinDanGet($accessToken, $amount, $color)
+	{
+		$headers = explode("\n", "Authorization: Bearer ".$accessToken."\ndevice-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+ 
+		$url = $this->BASE_URL."/campaigns";
+		$post = null;
+ 
+		$getInternal = $this->curl($url, $post, false, false, $headers, 'GET');
+		$objI = json_decode($getInternal);
+		foreach($objI->campaigns->internal as $a => $internal)
+		{
+			$campaignInternal = $internal->campaign;
+			$networkInternal = $internal->network;
+			print $this->getPointSpin($accessToken, $campaignInternal, $networkInternal);
+			sleep(7);
+			@ob_flush();
+			@flush();
+			$this->spin($accessToken, $amount, $color);
+			print PHP_EOL;
+			sleep(13);
+			@ob_flush();
+			@flush();
+		}
+ 
+		$getNetwork = $this->curl($url, $post, false, false, $headers, 'GET');
+		$objN = json_decode($getNetwork);
+		foreach($objN->campaigns->networks as $b => $networks)
+		{
+			$campaignNetworks = $networks->campaign;
+			$networkNetworks = $networks->network;
+			print $this->getPointSpin($accessToken, $campaignNetworks, $networkNetworks);
+			sleep(7);
+			@ob_flush();
+			@flush();
+			$this->spin($accessToken, $amount, $color);
+			print PHP_EOL;
+			sleep(13);
+			@ob_flush();
+			@flush();
+		}	
+	}
+ 
+	public function getCampaigns($accessToken)
+	{
+		$headers = explode("\n", "Authorization: Bearer ".$accessToken."\ndevice-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+ 
+		$url = $this->BASE_URL."/campaigns";
+		$post = null;
+ 
+		$getInternal = $this->curl($url, $post, false, false, $headers, 'GET');
+		$objI = json_decode($getInternal);
+		foreach($objI->campaigns->internal as $a => $internal)
+		{
+			$campaignInternal = $internal->campaign;
+			$networkInternal = $internal->network;
+			print $this->getPointSpin($accessToken, $campaignInternal, $networkInternal);
+			sleep(7);
+			@ob_flush();
+			@flush();
+		}
+ 
+		$getNetwork = $this->curl($url, $post, false, false, $headers, 'GET');
+		$objN = json_decode($getNetwork);
+		foreach($objN->campaigns->networks as $b => $networks)
+		{
+			$campaignNetworks = $networks->campaign;
+			$networkNetworks = $networks->network;
+			print $this->getPointSpin($accessToken, $campaignNetworks, $networkNetworks);
+			sleep(7);
+			@ob_flush();
+			@flush();
+		}
+	}
+ 
+	public function getPointSpin($accessToken, $campaigns, $network)
+	{
+		while(true)
+		{
+			$headers = explode("\n", "Authorization: Bearer ".$accessToken."\ndevice-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+			$url = $this->BASE_URL."/campaigns/claim";
+			$post = '{"campaign":'.trim($network).',"network":'.trim($network).',"referralGoal":true}';
+ 
+			$getPointSpin = $this->curl($url, $post, false, false, $headers);
+			$obj = json_decode($getPointSpin);
+ 
+			@$pointSpin = $obj->balance->spins;
+			if(!empty($pointSpin))
+			{
+				print PHP_EOL."Success Get Point SPIN! : ".$pointSpin;
+			}elseif(preg_match('/Internal Server Error/i', $getPointSpin)){
+				print PHP_EOL."Internal Server Error";
+				return false;
+			}else{
+				print PHP_EOL.@$obj->errors[0];
+				return false;
+			}
+			sleep(35);
+			@ob_flush();
+			@flush();
+		}
+	}
+ 
+	public function spin($accessToken, $amount, $color)
+	{
+		$headers = explode("\n", "Authorization: Bearer ".$accessToken."\ndevice-type: Android\ndevice-hardware: ".$this->randStr("all", "6")." ".$this->randStr("angka", "4")."\ndevice-version: ".rand(0000, 99999)."\nversion: 3.1.9\nContent-Type: application/json; charset=UTF-8\nHost: goldcloudbluesky.com");
+		$url = $this->BASE_URL."/game";
+		$post = '{"configHash":"40c5d29a29ce6561db6e5391e49242c5","selectedColor":'.$color.',"wager":{"amount":'.$amount.',"type":"spins"}}';
+ 
+		$spinPertama = $this->curl($url, $post, false, false, $headers);
+		$obj = json_decode($spinPertama);
+		@$pointSpin = $obj->balance->spins;
+ 
+		if(strpos($spinPertama, '"continue":false'))
+		{
+			print PHP_EOL."Gagal.. Point : ".$pointSpin;
+			sleep(10);
+			@ob_flush();
+			@flush();
+		}elseif(strpos($spinPertama, '"continue":true')){
+			@$Guid = $obj->session->GUID;
+			@$secret = $obj->session->nextMove->secret;
+ 
+			print PHP_EOL."Berhasil!, ";
+			sleep(10);
+			@ob_flush();
+			@flush();
+			$url = $this->BASE_URL."/game";
+			$post = '{"GUID":"'.$Guid.'","secret":"'.$secret.'","selectedColor":'.$color.'}';
+ 
+			$spinKedua = $this->curl($url, $post, false, false, $headers, 'PUT');
+			$obj = json_decode($spinKedua);
+ 
+			if(strpos($spinKedua, '"continue":false'))
+			{
+				print "Gagal.. Point : ".$pointSpin;
+				sleep(10);
+				@ob_flush();
+				@flush();
+			}elseif(strpos($spinKedua, 'continue":true')){
+				@$secretKedua = $obj->session->nextMove->secret;
+				print "Berhasil!, ";
+				sleep(10);
+				@ob_flush();
+				@flush();
+				$url = $this->BASE_URL."/game/claim";
+				$post = '{"GUID":"'.$Guid.'","secret":"'.$secretKedua.'"}';
+ 
+				$claim = $this->curl($url, $post, false, false, $headers, 'PUT');
+				$obj = json_decode($claim);
+ 
+				@$getBalance = $obj->prize->amount;
+				@$balance = $obj->balance->cash;
+				@$sisaPoint = $obj->balance->spins;
+ 
+				if(!empty($getBalance))
+				{
+					print "Get ".$getBalance."$ / ".$balance."$ / ".$sisaPoint;
+					sleep(10);
+					@ob_flush();
+					@flush();
+				}else{
+					print "Gagal claim!";
+					sleep(10);
+					@ob_flush();
+					@flush();
+				}
+			}else{
+				print "Kesalahan Pada Spin Kedua..";
+				sleep(10);
+				@ob_flush();
+				@flush();
+			}
+		}elseif(strpos($spinPertama, '"errors":["Insufficient funds to start new game."]')){
+			return PHP_EOL."Insufficient funds to start new game.";
+		}else{
+			print "Kesalahan Pada Spin Pertama..";
+			sleep(10);
+			@ob_flush();
+			@flush();
+		}	
+	}
+}
+ 
+class modules 
+{
+	var $ch;
+ 
+	public function curl($url, $params, $cookie, $header, $httpheaders = array(), $request = 'POST', $socks = null)
+	{
+		$this->ch = curl_init();
+			
+		curl_setopt($this->ch, CURLOPT_URL, $url);
+		curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, 0);
+		curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($this->ch, CURLOPT_FOLLOWLOCATION, 1);
+ 
+		curl_setopt($this->ch, CURLOPT_POSTFIELDS, $params);
+		curl_setopt($this->ch, CURLOPT_CUSTOMREQUEST, $request);
+ 
+		if($cookie == true)
+		{	
+			$cookFile = tempnam('/tmp','cookie.txt');
+			curl_setopt($this->ch, CURLOPT_COOKIEJAR, $cookFile);
+			curl_setopt($this->ch, CURLOPT_COOKIEFILE, $cookFile);
+		}
+ 
+		curl_setopt($this->ch, CURLOPT_HEADER, $header);
+		@curl_setopt($this->ch, CURLOPT_HTTPHEADER, $httpheaders);
+ 
+		curl_setopt($this->ch, CURLOPT_HTTPPROXYTUNNEL, 1);
+		curl_setopt($this->ch, CURLOPT_PROXY, $socks);
+		curl_setopt($this->ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS4);
+ 
+		curl_setopt($this->ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+		$response = curl_exec($this->ch);
+		curl_close($this->ch);
+		return $response;
+	}
+ 
+	public function randStr($type, $length)	
+	{
+		$characters = array();
+		$characters['angka'] = '0123456789';
+		$characters['kapital'] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+		$characters['huruf'] = 'abcdefghijklmnopqrstuvwxyz';
+		$characters['kapital_angka'] = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+		$characters['huruf_angka'] = '0123456789abcdefghijklmnopqrstuvwxyz';
+		$characters['all'] = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+		$charactersLength = strlen($characters[$type]);
+		$randomString = '';
+ 
+		for ($i = 0; $i < $length; $i++) 
+		{
+			$randomString .= $characters[$type][rand(0, $charactersLength - 1)];
+		}
+ 
+		return $randomString;
+ 
+	}   
+ 
+	public function randNama()
+	{
+		$get = file_get_contents("https://api.randomuser.me");
+		$j = json_decode($get, true);
+		$first = @preg_replace("/\b(?!\|)(?!,)(?!\s)\W\b/", "", @iconv('UTF-8', 'ASCII//TRANSLIT', $j['results'][0]['name']['first']));
+		$last = @preg_replace("/\b(?!\|)(?!,)(?!\s)\W\b/", "", @iconv('UTF-8', 'ASCII//TRANSLIT', $j['results'][0]['name']['last']));
+		$nama = $first .$last.$this->randStr('huruf_angka','2');
+		$rand = rand(00000,99999);
+		$domain = array("@gmail.com","@yahoo.com","@hotmail.co.id");
+		$email = $first.$last.$this->randStr("all", "2").$domain[rand(0, 2)];	
+		$nomorhp = "+628".$this->randStr('angka','10')."";
+		$password = $first.$this->randStr('huruf_angka','6');	
+		if(empty($first) or empty($last))
+		{
+			$this->randNama();
+		}else{
+			return array("first" => $first, "last" => $last, "nama" => $nama, "email" => $email, "nope" => $nomorhp, "password" => $password);
+		}
+	}
+ 
+	public function fwrite($namafile, $data)
+	{
+		$fh = fopen($namafile, "a");
+		fwrite($fh, $data);
+		fclose($fh);  
+	}
+}
+ 
+$qriket = new qriket;
+$modules = new modules;
+ 
+print PHP_EOL."===========[!] Menu [!]=============";
+print PHP_EOL."[1] Login";
+print PHP_EOL."[2] Register Account";
+print PHP_EOL."[3] Get Point Spin";
+print PHP_EOL."[4] Auto Spin";
+print PHP_EOL."[5] Auto Spin + Get Spin";
+print PHP_EOL."[6] Exit";
+print PHP_EOL."===========[!] Menu [!]=============";
+print PHP_EOL."Pilih Menu : ";
+ 
+$menu = trim(fgets(STDIN));
+$die = PHP_EOL.json_encode(array('status' => "exit"));
+if(!empty($menu))
+{
+	if($menu == 1 or $menu == "1")
+	{
+		print PHP_EOL."Masukkan Email|Password : ";
+		$empas = trim(fgets(STDIN));
+ 
+		$login = $qriket->login(explode("|", trim($empas))[0], explode("|", trim($empas))[1]);
+		print PHP_EOL.$login;
+	}elseif($menu == 2 or $menu == "2"){
+		print PHP_EOL."With Referral ? y/n : ";
+		$yataun = trim(fgetS(STDIN));
+		if($yataun == "y")
+		{
+			print "Input Referral Code : ";
+			$reff = trim(fgets(STDIN));
+			print "Input P0ne nomber : ";
+			$pone = trim(fgets(STDIN));
+			$qriket->sendOtp($pone);
+			print PHP_EOL."success Send OTP : ".$pone;
+			print PHP_EOL."Input Otipique COde : ";
+			$otepepekuenakontolan = trim(fgets(STDIN));
+			print $qriket->registerAccount($reff, $pone, $otepepekuenakontolan);
+		}elseif($yataun == "n"){
+			print PHP_EOL."Jumlah Register : ";
+			$jum = trim(fgets(STDIN));
+ 
+			for($a = 1; $a <= $jum; $a++)
+			{
+				print $qriket->registerAccount("n");
+				sleep(10);
+				@ob_flush();
+				@flush();
+			}
+		}	
+	}elseif($menu == 3 or $menu == "3"){
+		print PHP_EOL."Masukkan Email|Password : ";
+		$empas = trim(fgets(STDIN));
+ 
+		$login = $qriket->login(explode("|", trim($empas))[0], explode("|", trim($empas))[1]);
+		$obj = json_decode($login);
+		@$accessToken = $obj->auth->jwt->accessToken;
+		@$first = $obj->account->user->firstName;
+		@$last = $obj->account->user->lastName;
+		if(!empty($accessToken))
+		{
+			print PHP_EOL."Welcome : ".$first." ".$last.". Happy Ngebot Gays ^_^".PHP_EOL;
+			while(true)
+			{
+				print $qriket->getCampaigns($accessToken);
+				sleep(35);
+				@ob_flush();
+				@flush();
+			}
+		}else{
+			print PHP_EOL.$login;
+		}
+	}elseif($menu == 4 or $menu == "4"){
+		print PHP_EOL."Masukkan Email|Password : ";
+		$empas = trim(fgets(STDIN));
+		print "Masukkan Amount Spin : ";
+		$amount = trim(fgets(STDIN));
+		print "Masukkan Color Spin (0/1) : ";
+		$color = trim(fgets(STDIN));
+ 
+		$login = $qriket->login(explode("|", trim($empas))[0], explode("|", trim($empas))[1]);
+		$obj = json_decode($login);
+		@$accessToken = $obj->auth->jwt->accessToken;
+		@$first = $obj->account->user->firstName;
+		@$last = $obj->account->user->lastName;
+		if(!empty($accessToken))
+		{
+			print PHP_EOL."Welcome : ".$first." ".$last.". Happy Ngebot Gays ^_^".PHP_EOL;
+			while(true)
+			{
+				print $qriket->spin($accessToken, $amount, $color);
+				@ob_flush();
+				@flush();
+			}
+		}else{
+			print PHP_EOL.$login;
+		}
+	}elseif($menu == 5 or $menu == "5"){
+		print PHP_EOL."Masukkan Email|Password : ";
+		$empas = trim(fgets(STDIN));
+		print "Masukkan Amount Spin : ";
+		$amount = trim(fgets(STDIN));
+		print "Masukkan Color Spin (0/1) : ";
+		$color = trim(fgets(STDIN));
+ 
+		$login = $qriket->login(explode("|", trim($empas))[0], explode("|", trim($empas))[1]);
+		$obj = json_decode($login);
+		@$accessToken = $obj->auth->jwt->accessToken;
+		@$first = $obj->account->user->firstName;
+		@$last = $obj->account->user->lastName;
+		if(!empty($accessToken))
+		{
+			print PHP_EOL."Welcome : ".$first." ".$last.". Happy Ngebot Gays ^_^".PHP_EOL;
+			while(true)
+			{
+				print $qriket->spinDanGet($accessToken, $amount, $color);
+				@ob_flush();
+				@flush();
+			}
+		}else{
+			print PHP_EOL.$login;
+		}	
+	}else{	
+		print $die;
+	}
+}else{
+	print $die;
+}
+ 
 ?>
